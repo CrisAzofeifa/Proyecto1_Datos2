@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "Proyecto1_Datos2_autogen"
-  "CMakeFiles/Proyecto1_Datos2_autogen.dir/AutogenOldSettings.cmake"
+  "Proyecto1_Datos2_automoc.cpp"
   "CMakeFiles/main.dir/main.cpp.o"
   "main.pdb"
   "main"

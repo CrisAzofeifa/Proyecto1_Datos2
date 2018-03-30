@@ -19,8 +19,8 @@
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_IDE_CFactorial_t {
-    QByteArrayData data[14];
-    char stringdata0[178];
+    QByteArrayData data[16];
+    char stringdata0[198];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -42,14 +42,16 @@ QT_MOC_LITERAL(9, 136, 6), // "string"
 QT_MOC_LITERAL(10, 143, 5), // "valor"
 QT_MOC_LITERAL(11, 149, 16), // "validarExpresion"
 QT_MOC_LITERAL(12, 166, 4), // "tipo"
-QT_MOC_LITERAL(13, 171, 6) // "nombre"
+QT_MOC_LITERAL(13, 171, 6), // "nombre"
+QT_MOC_LITERAL(14, 178, 11), // "generarJson"
+QT_MOC_LITERAL(15, 190, 7) // "tamanio"
 
     },
     "IDE_CFactorial\0on_RunButton_clicked\0"
     "\0on_ClearStdOut_clicked\0on_ClearAppLog_clicked\0"
     "separarExpresion\0code\0on_StepButton_clicked\0"
     "esNumero\0string\0valor\0validarExpresion\0"
-    "tipo\0nombre"
+    "tipo\0nombre\0generarJson\0tamanio"
 };
 #undef QT_MOC_LITERAL
 
@@ -59,7 +61,7 @@ static const uint qt_meta_data_IDE_CFactorial[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-       7,   14, // methods
+       8,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -67,13 +69,14 @@ static const uint qt_meta_data_IDE_CFactorial[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   49,    2, 0x08 /* Private */,
-       3,    0,   50,    2, 0x08 /* Private */,
-       4,    0,   51,    2, 0x08 /* Private */,
-       5,    1,   52,    2, 0x08 /* Private */,
-       7,    0,   55,    2, 0x08 /* Private */,
-       8,    1,   56,    2, 0x08 /* Private */,
-      11,    3,   59,    2, 0x08 /* Private */,
+       1,    0,   54,    2, 0x08 /* Private */,
+       3,    0,   55,    2, 0x08 /* Private */,
+       4,    0,   56,    2, 0x08 /* Private */,
+       5,    1,   57,    2, 0x08 /* Private */,
+       7,    0,   60,    2, 0x08 /* Private */,
+       8,    1,   61,    2, 0x08 /* Private */,
+      11,    3,   64,    2, 0x08 /* Private */,
+      14,    4,   71,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
@@ -83,6 +86,7 @@ static const uint qt_meta_data_IDE_CFactorial[] = {
     QMetaType::Void,
     QMetaType::Bool, 0x80000000 | 9,   10,
     QMetaType::Bool, 0x80000000 | 9, 0x80000000 | 9, 0x80000000 | 9,   12,   13,   10,
+    QMetaType::Void, 0x80000000 | 9, 0x80000000 | 9, 0x80000000 | 9, 0x80000000 | 9,   12,   13,   10,   15,
 
        0        // eod
 };
@@ -102,6 +106,7 @@ void IDE_CFactorial::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
         case 6: { bool _r = _t->validarExpresion((*reinterpret_cast< string(*)>(_a[1])),(*reinterpret_cast< string(*)>(_a[2])),(*reinterpret_cast< string(*)>(_a[3])));
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 7: _t->generarJson((*reinterpret_cast< string(*)>(_a[1])),(*reinterpret_cast< string(*)>(_a[2])),(*reinterpret_cast< string(*)>(_a[3])),(*reinterpret_cast< string(*)>(_a[4]))); break;
         default: ;
         }
     }
@@ -132,13 +137,13 @@ int IDE_CFactorial::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 7)
+        if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 7;
+        _id -= 8;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 7)
+        if (_id < 8)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 7;
+        _id -= 8;
     }
     return _id;
 }

@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -24,17 +24,9 @@ unistd.h
 
 /home/kimberlyc/CLionProjects/Proyecto1_Datos2/Client.h
 
-/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2_autogen/QM7UNKGVG2/moc_ide_cfactorial.cpp
-../../forms/ide_cfactorial.h
-/home/kimberlyc/CLionProjects/Proyecto1_Datos2/forms/ide_cfactorial.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2_autogen/mocs_compilation.cpp
-QM7UNKGVG2/moc_ide_cfactorial.cpp
-/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2_autogen/QM7UNKGVG2/moc_ide_cfactorial.cpp
+/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2_automoc.cpp
+moc_ide_cfactorial.cpp
+/home/kimberlyc/CLionProjects/Proyecto1_Datos2/moc_ide_cfactorial.cpp
 
 /home/kimberlyc/CLionProjects/Proyecto1_Datos2/forms/ide_cfactorial.cpp
 ide_cfactorial.h
@@ -55,10 +47,20 @@ QApplication
 -
 forms/ide_cfactorial.h
 /home/kimberlyc/CLionProjects/Proyecto1_Datos2/forms/ide_cfactorial.h
-mserver.h
-/home/kimberlyc/CLionProjects/Proyecto1_Datos2/mserver.h
+jsoncpp/json/json.h
+-
+iostream
+-
+fstream
+-
 
-/home/kimberlyc/CLionProjects/Proyecto1_Datos2/mserver.h
+/home/kimberlyc/CLionProjects/Proyecto1_Datos2/moc_ide_cfactorial.cpp
+forms/ide_cfactorial.h
+/home/kimberlyc/CLionProjects/Proyecto1_Datos2/forms/ide_cfactorial.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
 
 /home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore/QVariant
 qvariant.h
