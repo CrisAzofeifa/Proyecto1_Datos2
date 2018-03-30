@@ -8,78 +8,78 @@
 		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Qt5.7.0\;CMake Files\..\..\Qt5.7.0\5.7\;CMake Files\..\..\Qt5.7.0\5.7\gcc_64\;CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\;CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\;CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\;CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Network\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/cris/CLionProjects/Proyecto1_Datos2."/>
+				<Option working_dir="/home/kimberlyc/CLionProjects/Proyecto1_Datos2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
-				<Option working_dir="/home/cris/CLionProjects/Proyecto1_Datos2."/>
+				<Option working_dir="/home/kimberlyc/CLionProjects/Proyecto1_Datos2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
-				<Option working_dir="/home/cris/CLionProjects/Proyecto1_Datos2."/>
+				<Option working_dir="/home/kimberlyc/CLionProjects/Proyecto1_Datos2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/cris/CLionProjects/Proyecto1_Datos2."/>
+				<Option working_dir="/home/kimberlyc/CLionProjects/Proyecto1_Datos2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/cris/CLionProjects/Proyecto1_Datos2."/>
+				<Option working_dir="/home/kimberlyc/CLionProjects/Proyecto1_Datos2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
-				<Option working_dir="/home/cris/CLionProjects/Proyecto1_Datos2."/>
+				<Option working_dir="/home/kimberlyc/CLionProjects/Proyecto1_Datos2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
-				<Option working_dir="/home/cris/CLionProjects/Proyecto1_Datos2."/>
+				<Option working_dir="/home/kimberlyc/CLionProjects/Proyecto1_Datos2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto1_Datos2">
-				<Option output="/home/cris/CLionProjects/Proyecto1_Datos2./Proyecto1_Datos2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/cris/CLionProjects/Proyecto1_Datos2."/>
+				<Option output="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kimberlyc/CLionProjects/Proyecto1_Datos2"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -87,15 +87,16 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
 					<Add option="-DQT_NETWORK_LIB"/>
-					<Add directory="/home/cris/CLionProjects/Proyecto1_Datos2./Proyecto1_Datos2_autogen/include"/>
-					<Add directory="/home/cris/CLionProjects/Proyecto1_Datos2."/>
-					<Add directory="/home/cris/Qt5.7.0/5.7/gcc_64/include"/>
-					<Add directory="/home/cris/Qt5.7.0/5.7/gcc_64/include/QtWidgets"/>
-					<Add directory="/home/cris/Qt5.7.0/5.7/gcc_64/include/QtGui"/>
-					<Add directory="/home/cris/Qt5.7.0/5.7/gcc_64/include/QtCore"/>
-					<Add directory="/home/cris/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++"/>
-					<Add directory="/home/cris/Qt5.7.0/5.7/gcc_64/include/QtNetwork"/>
+					<Add directory="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2_autogen/include"/>
+					<Add directory="/home/kimberlyc/CLionProjects/Proyecto1_Datos2"/>
+					<Add directory="/home/kimberlyc/Qt5.7.0/5.7/gcc_64/include"/>
+					<Add directory="/home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtGui"/>
+					<Add directory="/home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore"/>
+					<Add directory="/home/kimberlyc/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtNetwork"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -106,15 +107,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 Proyecto1_Datos2"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 Proyecto1_Datos2"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto1_Datos2/fast">
-				<Option output="/home/cris/CLionProjects/Proyecto1_Datos2./Proyecto1_Datos2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/cris/CLionProjects/Proyecto1_Datos2."/>
+				<Option output="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kimberlyc/CLionProjects/Proyecto1_Datos2"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -122,15 +123,16 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
 					<Add option="-DQT_NETWORK_LIB"/>
-					<Add directory="/home/cris/CLionProjects/Proyecto1_Datos2./Proyecto1_Datos2_autogen/include"/>
-					<Add directory="/home/cris/CLionProjects/Proyecto1_Datos2."/>
-					<Add directory="/home/cris/Qt5.7.0/5.7/gcc_64/include"/>
-					<Add directory="/home/cris/Qt5.7.0/5.7/gcc_64/include/QtWidgets"/>
-					<Add directory="/home/cris/Qt5.7.0/5.7/gcc_64/include/QtGui"/>
-					<Add directory="/home/cris/Qt5.7.0/5.7/gcc_64/include/QtCore"/>
-					<Add directory="/home/cris/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++"/>
-					<Add directory="/home/cris/Qt5.7.0/5.7/gcc_64/include/QtNetwork"/>
+					<Add directory="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2_autogen/include"/>
+					<Add directory="/home/kimberlyc/CLionProjects/Proyecto1_Datos2"/>
+					<Add directory="/home/kimberlyc/Qt5.7.0/5.7/gcc_64/include"/>
+					<Add directory="/home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtGui"/>
+					<Add directory="/home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtCore"/>
+					<Add directory="/home/kimberlyc/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/home/kimberlyc/Qt5.7.0/5.7/gcc_64/include/QtNetwork"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -141,20 +143,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 Proyecto1_Datos2/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 Proyecto1_Datos2/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main">
-				<Option output="/home/cris/CLionProjects/Proyecto1_Datos2./main" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/cris/CLionProjects/Proyecto1_Datos2."/>
+				<Option output="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kimberlyc/CLionProjects/Proyecto1_Datos2"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/cris/CLionProjects/Proyecto1_Datos2."/>
+					<Add directory="/home/kimberlyc/CLionProjects/Proyecto1_Datos2"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -165,20 +167,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 main"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main/fast">
-				<Option output="/home/cris/CLionProjects/Proyecto1_Datos2./main" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/cris/CLionProjects/Proyecto1_Datos2."/>
+				<Option output="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kimberlyc/CLionProjects/Proyecto1_Datos2"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/cris/CLionProjects/Proyecto1_Datos2."/>
+					<Add directory="/home/kimberlyc/CLionProjects/Proyecto1_Datos2"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -189,179 +191,179 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 main/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto1_Datos2_autogen">
-				<Option working_dir="/home/cris/CLionProjects/Proyecto1_Datos2."/>
+				<Option working_dir="/home/kimberlyc/CLionProjects/Proyecto1_Datos2"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 Proyecto1_Datos2_autogen"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cris/CLionProjects/Proyecto1_Datos2./Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 Proyecto1_Datos2_autogen"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./Client.cpp">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Client.cpp">
 			<Option target="Proyecto1_Datos2"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./Client.h">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Client.h">
 			<Option target="Proyecto1_Datos2"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./Proyecto1_Datos2_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2_autogen/mocs_compilation.cpp">
 			<Option target="Proyecto1_Datos2"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./forms/ide_cfactorial.cpp">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/forms/ide_cfactorial.cpp">
 			<Option target="Proyecto1_Datos2"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./forms/ide_cfactorial.h">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/forms/ide_cfactorial.h">
 			<Option target="Proyecto1_Datos2"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./forms/ide_cfactorial.ui">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/forms/ide_cfactorial.ui">
 			<Option target="Proyecto1_Datos2"/>
 			<Option target="Proyecto1_Datos2_autogen"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./main.cpp">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/main.cpp">
 			<Option target="Proyecto1_Datos2"/>
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./ui_ide_cfactorial.h">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/ui_ide_cfactorial.h">
 			<Option target="Proyecto1_Datos2"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./CMakeLists.txt">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Network\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Network\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Network\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Network\"/>
 		</Unit>
-		<Unit filename="/home/cris/CLionProjects/Proyecto1_Datos2./../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
+		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto1_Datos2/../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Network\"/>
 		</Unit>
 	</Project>

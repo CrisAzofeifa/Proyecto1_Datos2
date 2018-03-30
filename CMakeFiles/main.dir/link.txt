@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=c++11 -Wall -Wextra -O0 -g3   CMakeFiles/main.dir/main.cpp.o  -o main -rdynamic -ljsoncpp -ljsoncpp 
+/usr/bin/c++  -std=c++11 -Wall -Wextra -O3 -g3  -rdynamic CMakeFiles/main.dir/main.cpp.o  -o main -ljsoncpp -ljsoncpp 
