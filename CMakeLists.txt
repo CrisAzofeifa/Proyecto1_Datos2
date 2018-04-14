@@ -7,8 +7,8 @@ project(${TARGET_NAME})
 
 ###################################################
 
-#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -pthread")
-#find_package( Threads REQUIRED )
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -pthread")
+find_package( Threads REQUIRED )
 
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(JSONCPP jsoncpp)
@@ -55,7 +55,7 @@ set(SOURCES
         main.cpp
         forms/ide_cfactorial.cpp
         Client.cpp Client.h
-        )
+        MetaData.cpp MetaData.h)
 
 # User interface files
 set(FORMS
@@ -75,7 +75,7 @@ qt5_wrap_ui(UIC_SOURCES ${FORMS})
 
 # Set target
 add_executable(${TARGET_NAME} ${SOURCES} ${HEADERS} ${UIC_SOURCES} ${RCC_SOURCES} )
-target_link_libraries( ${TARGET_NAME}  )#Threads::Threads#
+target_link_libraries( ${TARGET_NAME} Threads::Threads )
 target_link_libraries(${TARGET_NAME} ${LIBRARIES})
 
 # Installation

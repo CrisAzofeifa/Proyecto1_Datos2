@@ -1,5 +1,6 @@
 
 #include "Client.h"
+#include "MetaData.h"
 #include <iostream>
 
 #include<stdio.h>
@@ -23,9 +24,9 @@ int Client::crear() {
         printf("Socket creado con éxito\n");
     }
 
-    server.sin_addr.s_addr = inet_addr("172.217.2.78"); // ID para la conexion (ping)
+    server.sin_addr.s_addr = inet_addr("192.168.100.14"); // ID para la conexion (ping)
     server.sin_family = AF_INET; //Socket tipo atp
-    server.sin_port = htons( 80 ); //puerto de comunicacion
+    server.sin_port = htons( 8888 ); //puerto de comunicacion
 
     conectar();
 
@@ -44,14 +45,16 @@ int Client::conectar() {
     }
 
     puts("Conectado\n");
-    enviar();
+    char json[98] = {"soy un json"};
+    enviar (json);
+
 }
 
-int Client::enviar(){
+int Client::enviar(char json[]){
     //Enviar datos
     char *message;
-    message = const_cast<char *>("GET / HTTP/1.1\r\n\r\n");
-    if( send(socket_desc , message , strlen(message) , 0) < 0)
+    message = const_cast<char *>("Hola gente");
+    if( send(socket_desc , json , strlen(json) , 0) < 0)
     {
         puts("Envio fallido\n");
         return 1;
@@ -72,6 +75,8 @@ int Client::recibir(){
     }
     puts("La respuesta:\n");
     puts(server_reply);
+    MetaData *meta = new MetaData();
+    meta->parseo(server_reply);
 
 
 }

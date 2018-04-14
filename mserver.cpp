@@ -1,4 +1,5 @@
 #include "mserver.h"
+#include <iostream>
 #include<stdio.h>
 #include<string.h>    //strlen
 #include<stdlib.h>    //strlen
@@ -13,7 +14,7 @@
  * 3. Escribir el comando g++ -pthread  mserver.cpp -o mserver
  * 4. Ingresar ./mserver
 */
-
+using namespace std;
 void *manejador_conexion(void *);
 
 int socket_desc , client_sock , c;
@@ -25,6 +26,7 @@ int main(){
 
     return 0;
 }
+
 
 int Server::crear() {
 
@@ -98,6 +100,7 @@ int Server::crear() {
     }
 
 
+
 }
 
 /*
@@ -108,27 +111,30 @@ void *manejador_conexion(void *socket_desc)
     //Se obtiene el descriptor del socket
     int sock = *(int*)socket_desc;
     int read_size;
-    char client_message[2000];
+    char client_message[20000];
     const char *message;
 
     //Enviar mensajes al cliente
-    message = "Hola, soy su manejador de conexiones\n";
-    write(sock , message , strlen(message));
+    //message = "Preparado para recibir datos\n";
+    //write(sock , message , strlen(message));
 
-    message = "Escriba algo y lo repetire \n";
-    write(sock , message , strlen(message));
 
     //Recibir mensajes al cliente
-    while( (read_size = recv(sock , client_message , 2000 , 0)) > 0 )
+    while( (read_size = recv(sock , client_message , 20000 , 0)) > 0 )
     {
         //Final del marcador del string respuesta
         client_message[read_size] = '\0';
+         char client_resp[20000] = "esta es mi respuesta jajajajaja";
 
         //Enviar mensaje de vuelta al cliente
-        write(sock , client_message , strlen(client_message));
+
+        write(sock , client_resp, strlen(client_resp));
+
+        cout << "El mensaje recibido es " << client_message<< endl;
 
         //limpiar el mensaje
-        memset(client_message, 0, 2000);
+       //memset(client_message, 0, 2000);
+
     }
     // Si se desconecta el cliente (en este caso se cierra la terminal)
     if(read_size == 0)
@@ -142,6 +148,8 @@ void *manejador_conexion(void *socket_desc)
     }
 
 
-
-    return 0;
 }
+void enviar(void *socket_desc);
+
+
+
