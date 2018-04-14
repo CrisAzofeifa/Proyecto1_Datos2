@@ -1,4 +1,4 @@
-# Install script for directory: /home/kimberlyc/CLionProjects/Proyecto1_Datos2
+# Install script for directory: /home/cris/CLionProjects/Proyecto1_Datos2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Proyecto1_Datos2"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/cris/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Proyecto1_Datos2" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Proyecto1_Datos2")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Proyecto1_Datos2"
-         OLD_RPATH "/home/kimberlyc/Qt5.7.0/5.7/gcc_64/lib:"
+         OLD_RPATH "/home/cris/Qt5.7.0/5.7/gcc_64/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Proyecto1_Datos2")
@@ -53,7 +53,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/applications" TYPE FILE FILES "/home/kimberlyc/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2.desktop")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/applications" TYPE FILE FILES "/home/cris/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2.desktop")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -64,5 +64,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kimberlyc/CLionProjects/Proyecto1_Datos2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cris/CLionProjects/Proyecto1_Datos2/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11 -Wall -Wextra -O3 -g3
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/kimberlyc/CLionProjects/Proyecto1_Datos2 
+CXX_INCLUDES = -I/home/cris/CLionProjects/Proyecto1_Datos2 
 

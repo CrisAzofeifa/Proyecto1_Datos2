@@ -4,6 +4,10 @@
 #include <QMainWindow>
 #include <iostream>
 #include <jsoncpp/json/json.h>
+#include <Client.h>
+#include <List.h>
+#include "Expresion.h"
+
 
 
 using namespace std;
@@ -27,19 +31,24 @@ private slots:
 
     void on_ClearAppLog_clicked();
 
-    void separarExpresion(QString code);
+    void on_StopButton_clicked();
+
+    void separarExpresion(string code, int nivel);
 
     void on_StepButton_clicked();
 
     bool esNumero(string valor);
 
-    bool validarExpresion(string tipo, string nombre, string valor);
+    bool validarExpresion(Expresion expresion);
 
-    void generarJson(string tipo, string nombre, string valor, string tamanio);
+    void generarJson(string tipo, string nombre, string valor);
+
+    void dividirEnExpresiones(string Texto);
 
 private:
     Ui::IDE_CFactorial *ui;
-    QStringList expresiones;
+    List<Expresion> *listaExpresiones;
+
     int contador = 0;
 };
 

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/cris/Descargas/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/cris/Descargas/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kimberlyc/CLionProjects/Proyecto1_Datos2
+CMAKE_SOURCE_DIR = /home/cris/CLionProjects/Proyecto1_Datos2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kimberlyc/CLionProjects/Proyecto1_Datos2
+CMAKE_BINARY_DIR = /home/cris/CLionProjects/Proyecto1_Datos2
 
 # Utility rule file for Proyecto1_Datos2_autogen.
 
@@ -54,12 +54,12 @@ CMAKE_BINARY_DIR = /home/kimberlyc/CLionProjects/Proyecto1_Datos2
 include CMakeFiles/Proyecto1_Datos2_autogen.dir/progress.make
 
 CMakeFiles/Proyecto1_Datos2_autogen: ui_ide_cfactorial.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kimberlyc/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target Proyecto1_Datos2"
-	/opt/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_autogen /home/kimberlyc/CLionProjects/Proyecto1_Datos2/CMakeFiles/Proyecto1_Datos2_autogen.dir RelWithDebInfo
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cris/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target Proyecto1_Datos2"
+	/home/cris/Descargas/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_autogen /home/cris/CLionProjects/Proyecto1_Datos2/CMakeFiles/Proyecto1_Datos2_autogen.dir RelWithDebInfo
 
 ui_ide_cfactorial.h: forms/ide_cfactorial.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kimberlyc/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_ide_cfactorial.h"
-	/home/kimberlyc/Qt5.7.0/5.7/gcc_64/bin/uic -o /home/kimberlyc/CLionProjects/Proyecto1_Datos2/ui_ide_cfactorial.h /home/kimberlyc/CLionProjects/Proyecto1_Datos2/forms/ide_cfactorial.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cris/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_ide_cfactorial.h"
+	/home/cris/Qt5.7.0/5.7/gcc_64/bin/uic -o /home/cris/CLionProjects/Proyecto1_Datos2/ui_ide_cfactorial.h /home/cris/CLionProjects/Proyecto1_Datos2/forms/ide_cfactorial.ui
 
 Proyecto1_Datos2_autogen: CMakeFiles/Proyecto1_Datos2_autogen
 Proyecto1_Datos2_autogen: ui_ide_cfactorial.h
@@ -77,6 +77,6 @@ CMakeFiles/Proyecto1_Datos2_autogen.dir/clean:
 .PHONY : CMakeFiles/Proyecto1_Datos2_autogen.dir/clean
 
 CMakeFiles/Proyecto1_Datos2_autogen.dir/depend:
-	cd /home/kimberlyc/CLionProjects/Proyecto1_Datos2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kimberlyc/CLionProjects/Proyecto1_Datos2 /home/kimberlyc/CLionProjects/Proyecto1_Datos2 /home/kimberlyc/CLionProjects/Proyecto1_Datos2 /home/kimberlyc/CLionProjects/Proyecto1_Datos2 /home/kimberlyc/CLionProjects/Proyecto1_Datos2/CMakeFiles/Proyecto1_Datos2_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cris/CLionProjects/Proyecto1_Datos2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cris/CLionProjects/Proyecto1_Datos2 /home/cris/CLionProjects/Proyecto1_Datos2 /home/cris/CLionProjects/Proyecto1_Datos2 /home/cris/CLionProjects/Proyecto1_Datos2 /home/cris/CLionProjects/Proyecto1_Datos2/CMakeFiles/Proyecto1_Datos2_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Proyecto1_Datos2_autogen.dir/depend
 

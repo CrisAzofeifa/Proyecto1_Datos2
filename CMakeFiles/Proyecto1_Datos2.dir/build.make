@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/cris/Descargas/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/cris/Descargas/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kimberlyc/CLionProjects/Proyecto1_Datos2
+CMAKE_SOURCE_DIR = /home/cris/CLionProjects/Proyecto1_Datos2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kimberlyc/CLionProjects/Proyecto1_Datos2
+CMAKE_BINARY_DIR = /home/cris/CLionProjects/Proyecto1_Datos2
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Proyecto1_Datos2.dir/depend.make
@@ -58,21 +58,21 @@ include CMakeFiles/Proyecto1_Datos2.dir/progress.make
 include CMakeFiles/Proyecto1_Datos2.dir/flags.make
 
 ui_ide_cfactorial.h: forms/ide_cfactorial.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kimberlyc/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_ide_cfactorial.h"
-	/home/kimberlyc/Qt5.7.0/5.7/gcc_64/bin/uic -o /home/kimberlyc/CLionProjects/Proyecto1_Datos2/ui_ide_cfactorial.h /home/kimberlyc/CLionProjects/Proyecto1_Datos2/forms/ide_cfactorial.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cris/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_ide_cfactorial.h"
+	/home/cris/Qt5.7.0/5.7/gcc_64/bin/uic -o /home/cris/CLionProjects/Proyecto1_Datos2/ui_ide_cfactorial.h /home/cris/CLionProjects/Proyecto1_Datos2/forms/ide_cfactorial.ui
 
 CMakeFiles/Proyecto1_Datos2.dir/main.cpp.o: CMakeFiles/Proyecto1_Datos2.dir/flags.make
 CMakeFiles/Proyecto1_Datos2.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimberlyc/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto1_Datos2.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Datos2.dir/main.cpp.o -c /home/kimberlyc/CLionProjects/Proyecto1_Datos2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cris/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto1_Datos2.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Datos2.dir/main.cpp.o -c /home/cris/CLionProjects/Proyecto1_Datos2/main.cpp
 
 CMakeFiles/Proyecto1_Datos2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Datos2.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimberlyc/CLionProjects/Proyecto1_Datos2/main.cpp > CMakeFiles/Proyecto1_Datos2.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cris/CLionProjects/Proyecto1_Datos2/main.cpp > CMakeFiles/Proyecto1_Datos2.dir/main.cpp.i
 
 CMakeFiles/Proyecto1_Datos2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Datos2.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimberlyc/CLionProjects/Proyecto1_Datos2/main.cpp -o CMakeFiles/Proyecto1_Datos2.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cris/CLionProjects/Proyecto1_Datos2/main.cpp -o CMakeFiles/Proyecto1_Datos2.dir/main.cpp.s
 
 CMakeFiles/Proyecto1_Datos2.dir/main.cpp.o.requires:
 
@@ -87,16 +87,16 @@ CMakeFiles/Proyecto1_Datos2.dir/main.cpp.o.provides.build: CMakeFiles/Proyecto1_
 
 CMakeFiles/Proyecto1_Datos2.dir/forms/ide_cfactorial.cpp.o: CMakeFiles/Proyecto1_Datos2.dir/flags.make
 CMakeFiles/Proyecto1_Datos2.dir/forms/ide_cfactorial.cpp.o: forms/ide_cfactorial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimberlyc/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto1_Datos2.dir/forms/ide_cfactorial.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Datos2.dir/forms/ide_cfactorial.cpp.o -c /home/kimberlyc/CLionProjects/Proyecto1_Datos2/forms/ide_cfactorial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cris/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto1_Datos2.dir/forms/ide_cfactorial.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Datos2.dir/forms/ide_cfactorial.cpp.o -c /home/cris/CLionProjects/Proyecto1_Datos2/forms/ide_cfactorial.cpp
 
 CMakeFiles/Proyecto1_Datos2.dir/forms/ide_cfactorial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Datos2.dir/forms/ide_cfactorial.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimberlyc/CLionProjects/Proyecto1_Datos2/forms/ide_cfactorial.cpp > CMakeFiles/Proyecto1_Datos2.dir/forms/ide_cfactorial.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cris/CLionProjects/Proyecto1_Datos2/forms/ide_cfactorial.cpp > CMakeFiles/Proyecto1_Datos2.dir/forms/ide_cfactorial.cpp.i
 
 CMakeFiles/Proyecto1_Datos2.dir/forms/ide_cfactorial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Datos2.dir/forms/ide_cfactorial.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimberlyc/CLionProjects/Proyecto1_Datos2/forms/ide_cfactorial.cpp -o CMakeFiles/Proyecto1_Datos2.dir/forms/ide_cfactorial.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cris/CLionProjects/Proyecto1_Datos2/forms/ide_cfactorial.cpp -o CMakeFiles/Proyecto1_Datos2.dir/forms/ide_cfactorial.cpp.s
 
 CMakeFiles/Proyecto1_Datos2.dir/forms/ide_cfactorial.cpp.o.requires:
 
@@ -111,16 +111,16 @@ CMakeFiles/Proyecto1_Datos2.dir/forms/ide_cfactorial.cpp.o.provides.build: CMake
 
 CMakeFiles/Proyecto1_Datos2.dir/Client.cpp.o: CMakeFiles/Proyecto1_Datos2.dir/flags.make
 CMakeFiles/Proyecto1_Datos2.dir/Client.cpp.o: Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimberlyc/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto1_Datos2.dir/Client.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Datos2.dir/Client.cpp.o -c /home/kimberlyc/CLionProjects/Proyecto1_Datos2/Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cris/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto1_Datos2.dir/Client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Datos2.dir/Client.cpp.o -c /home/cris/CLionProjects/Proyecto1_Datos2/Client.cpp
 
 CMakeFiles/Proyecto1_Datos2.dir/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Datos2.dir/Client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimberlyc/CLionProjects/Proyecto1_Datos2/Client.cpp > CMakeFiles/Proyecto1_Datos2.dir/Client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cris/CLionProjects/Proyecto1_Datos2/Client.cpp > CMakeFiles/Proyecto1_Datos2.dir/Client.cpp.i
 
 CMakeFiles/Proyecto1_Datos2.dir/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Datos2.dir/Client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimberlyc/CLionProjects/Proyecto1_Datos2/Client.cpp -o CMakeFiles/Proyecto1_Datos2.dir/Client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cris/CLionProjects/Proyecto1_Datos2/Client.cpp -o CMakeFiles/Proyecto1_Datos2.dir/Client.cpp.s
 
 CMakeFiles/Proyecto1_Datos2.dir/Client.cpp.o.requires:
 
@@ -135,16 +135,16 @@ CMakeFiles/Proyecto1_Datos2.dir/Client.cpp.o.provides.build: CMakeFiles/Proyecto
 
 CMakeFiles/Proyecto1_Datos2.dir/MetaData.cpp.o: CMakeFiles/Proyecto1_Datos2.dir/flags.make
 CMakeFiles/Proyecto1_Datos2.dir/MetaData.cpp.o: MetaData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimberlyc/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto1_Datos2.dir/MetaData.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Datos2.dir/MetaData.cpp.o -c /home/kimberlyc/CLionProjects/Proyecto1_Datos2/MetaData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cris/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto1_Datos2.dir/MetaData.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Datos2.dir/MetaData.cpp.o -c /home/cris/CLionProjects/Proyecto1_Datos2/MetaData.cpp
 
 CMakeFiles/Proyecto1_Datos2.dir/MetaData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Datos2.dir/MetaData.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimberlyc/CLionProjects/Proyecto1_Datos2/MetaData.cpp > CMakeFiles/Proyecto1_Datos2.dir/MetaData.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cris/CLionProjects/Proyecto1_Datos2/MetaData.cpp > CMakeFiles/Proyecto1_Datos2.dir/MetaData.cpp.i
 
 CMakeFiles/Proyecto1_Datos2.dir/MetaData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Datos2.dir/MetaData.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimberlyc/CLionProjects/Proyecto1_Datos2/MetaData.cpp -o CMakeFiles/Proyecto1_Datos2.dir/MetaData.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cris/CLionProjects/Proyecto1_Datos2/MetaData.cpp -o CMakeFiles/Proyecto1_Datos2.dir/MetaData.cpp.s
 
 CMakeFiles/Proyecto1_Datos2.dir/MetaData.cpp.o.requires:
 
@@ -159,16 +159,16 @@ CMakeFiles/Proyecto1_Datos2.dir/MetaData.cpp.o.provides.build: CMakeFiles/Proyec
 
 CMakeFiles/Proyecto1_Datos2.dir/Proyecto1_Datos2_autogen/mocs_compilation.cpp.o: CMakeFiles/Proyecto1_Datos2.dir/flags.make
 CMakeFiles/Proyecto1_Datos2.dir/Proyecto1_Datos2_autogen/mocs_compilation.cpp.o: Proyecto1_Datos2_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimberlyc/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto1_Datos2.dir/Proyecto1_Datos2_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Datos2.dir/Proyecto1_Datos2_autogen/mocs_compilation.cpp.o -c /home/kimberlyc/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cris/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto1_Datos2.dir/Proyecto1_Datos2_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Datos2.dir/Proyecto1_Datos2_autogen/mocs_compilation.cpp.o -c /home/cris/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2_autogen/mocs_compilation.cpp
 
 CMakeFiles/Proyecto1_Datos2.dir/Proyecto1_Datos2_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Datos2.dir/Proyecto1_Datos2_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimberlyc/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2_autogen/mocs_compilation.cpp > CMakeFiles/Proyecto1_Datos2.dir/Proyecto1_Datos2_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cris/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2_autogen/mocs_compilation.cpp > CMakeFiles/Proyecto1_Datos2.dir/Proyecto1_Datos2_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/Proyecto1_Datos2.dir/Proyecto1_Datos2_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Datos2.dir/Proyecto1_Datos2_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimberlyc/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2_autogen/mocs_compilation.cpp -o CMakeFiles/Proyecto1_Datos2.dir/Proyecto1_Datos2_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cris/CLionProjects/Proyecto1_Datos2/Proyecto1_Datos2_autogen/mocs_compilation.cpp -o CMakeFiles/Proyecto1_Datos2.dir/Proyecto1_Datos2_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/Proyecto1_Datos2.dir/Proyecto1_Datos2_autogen/mocs_compilation.cpp.o.requires:
 
@@ -198,12 +198,12 @@ Proyecto1_Datos2: CMakeFiles/Proyecto1_Datos2.dir/Client.cpp.o
 Proyecto1_Datos2: CMakeFiles/Proyecto1_Datos2.dir/MetaData.cpp.o
 Proyecto1_Datos2: CMakeFiles/Proyecto1_Datos2.dir/Proyecto1_Datos2_autogen/mocs_compilation.cpp.o
 Proyecto1_Datos2: CMakeFiles/Proyecto1_Datos2.dir/build.make
-Proyecto1_Datos2: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/lib/libQt5Widgets.so.5.7.0
-Proyecto1_Datos2: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/lib/libQt5Network.so.5.7.0
-Proyecto1_Datos2: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/lib/libQt5Gui.so.5.7.0
-Proyecto1_Datos2: /home/kimberlyc/Qt5.7.0/5.7/gcc_64/lib/libQt5Core.so.5.7.0
+Proyecto1_Datos2: /home/cris/Qt5.7.0/5.7/gcc_64/lib/libQt5Widgets.so.5.7.0
+Proyecto1_Datos2: /home/cris/Qt5.7.0/5.7/gcc_64/lib/libQt5Network.so.5.7.0
+Proyecto1_Datos2: /home/cris/Qt5.7.0/5.7/gcc_64/lib/libQt5Gui.so.5.7.0
+Proyecto1_Datos2: /home/cris/Qt5.7.0/5.7/gcc_64/lib/libQt5Core.so.5.7.0
 Proyecto1_Datos2: CMakeFiles/Proyecto1_Datos2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kimberlyc/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Proyecto1_Datos2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cris/CLionProjects/Proyecto1_Datos2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Proyecto1_Datos2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto1_Datos2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -224,6 +224,6 @@ CMakeFiles/Proyecto1_Datos2.dir/clean:
 .PHONY : CMakeFiles/Proyecto1_Datos2.dir/clean
 
 CMakeFiles/Proyecto1_Datos2.dir/depend: ui_ide_cfactorial.h
-	cd /home/kimberlyc/CLionProjects/Proyecto1_Datos2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kimberlyc/CLionProjects/Proyecto1_Datos2 /home/kimberlyc/CLionProjects/Proyecto1_Datos2 /home/kimberlyc/CLionProjects/Proyecto1_Datos2 /home/kimberlyc/CLionProjects/Proyecto1_Datos2 /home/kimberlyc/CLionProjects/Proyecto1_Datos2/CMakeFiles/Proyecto1_Datos2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cris/CLionProjects/Proyecto1_Datos2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cris/CLionProjects/Proyecto1_Datos2 /home/cris/CLionProjects/Proyecto1_Datos2 /home/cris/CLionProjects/Proyecto1_Datos2 /home/cris/CLionProjects/Proyecto1_Datos2 /home/cris/CLionProjects/Proyecto1_Datos2/CMakeFiles/Proyecto1_Datos2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Proyecto1_Datos2.dir/depend
 

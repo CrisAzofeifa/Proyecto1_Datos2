@@ -12,7 +12,8 @@ IDE_CFactorial::IDE_CFactorial(QWidget *parent) :
     ui->setupUi(this);
     ui->StepButton->setVisible(false);
     ui->StopButton->setVisible(false);
-    
+
+
 
 }
 
@@ -27,15 +28,15 @@ IDE_CFactorial::~IDE_CFactorial()
  * Asigna esta lista de expresiones a un atributo
  */
 void IDE_CFactorial::on_RunButton_clicked() {
-    ui->StepButton->setVisible(true);
-    ui->StopButton->setVisible(true);
 
-    QString texto = ui->EditorC->toPlainText();
-
-    QStringList line = texto.split("\n", QString::SkipEmptyParts);
-
-    expresiones = line;
-
+    QString codeQT = ui->EditorC->toPlainText();
+    string CodeString = codeQT.toStdString();
+    if(CodeString != ""){
+        ui->StepButton->setVisible(true);
+        ui->StopButton->setVisible(true);
+        listaExpresiones = new List<Expresion>();
+        dividirEnExpresiones(CodeString);
+    }
 }
 
 
@@ -51,32 +52,38 @@ void IDE_CFactorial::on_ClearAppLog_clicked()
     ui->ApplicationLog->clear();
 }
 
+void IDE_CFactorial::on_StopButton_clicked()
+{
+    contador = 0;
+    ui->StopButton->setVisible(false);
+    ui->StepButton->setVisible(false);
+}
+
 /*
  * Toma una expresión y la separa en partes
  * para luego ser validada
  */
-void IDE_CFactorial::separarExpresion(QString codigo) {
-    string code = codigo.toStdString();
+void IDE_CFactorial::separarExpresion(string codigo, int nivel) {
     string temp, tipo = "", nombre = "", valor = "";
 
     //Saca el tipo de variable
     int x = 0;
-    while (code[x] != ' ') {
-        tipo = tipo + code[x];
+    while (codigo[x] != ' ') {
+        tipo = tipo + codigo[x];
         x++;
     }
 
     /*
      * Continua aumentando para validar los espacios vacíos
      */
-    while (code[x] == ' ') {
+    while (codigo[x] == ' ') {
         x++;
     }
 
     //Saca la variable nombre de la expresion
-    while (code[x] != '=') {
-        if (code[x] != ' ') {
-            nombre = nombre + code[x];
+    while (codigo[x] != '=') {
+        if (codigo[x] != ' ') {
+            nombre = nombre + codigo[x];
             x++;
         } else {
             x++;
@@ -86,39 +93,20 @@ void IDE_CFactorial::separarExpresion(QString codigo) {
 
     x++;
     //Se asegura de saltar los espacios en blanco
-    while (code[x] == ' ') {
+    while (codigo[x] == ' ') {
         x++;
     }
 
 
     //Saca el valor asignado de la expresión
-    while (x < code.size() - 1) {
-        valor = valor + code[x];
+    while (x < codigo.size()) {
+        valor = valor + codigo[x];
         x++;
     }
 
-    /*
-     *Llama a la función encargada de validar que la
-     * estructura se cumpla
-     */
-    if(validarExpresion(tipo,nombre,valor)){
-        cout<<"Se cumplió we";
-        generarJson(tipo, nombre, valor, "4");
-    }else{
-        cout<<"no se cumplió";
-    }
-
-    /*
-     * Si no hay mas lineas quita los botones de Step y run
-     * y reincia el contador global y la lista de expresiones
-     */
-    if (contador == expresiones.size() - 1) {
-        contador = 0;
-        expresiones.clear();
-        ui->StepButton->setVisible(false);
-        ui->StopButton->setVisible(false);
-    }
-
+    Expresion nueva;
+    nueva.setAtributos(nombre, tipo, valor, nivel);
+    listaExpresiones->Insert(nueva);
 
 }
 
@@ -128,8 +116,19 @@ void IDE_CFactorial::separarExpresion(QString codigo) {
  */
 void IDE_CFactorial::on_StepButton_clicked()
 {
-    separarExpresion(expresiones.at(contador));
+    if(validarExpresion(listaExpresiones->Get(contador))){
+        cout<<"Se cumplió"<<endl;
+    }else{
+        cout<<"No se cumplió"<<endl;
+    }
+
     contador++;
+
+    if(contador == listaExpresiones->length()){
+        ui->StepButton->setVisible(false);
+        ui->StopButton->setVisible(false);
+        contador = 0;
+    }
 }
 
 /*
@@ -140,8 +139,9 @@ bool IDE_CFactorial::esNumero(string valor) {
         for(int x = 0; x<valor.size(); x++ )
         {
             // En cuanto un caracter no sea numérico
-            if( '0' > valor[x] || '9' < valor[x] )
+            if( '0' > valor[x] || '9' < valor[x] ) {
                 return false;
+            }
         }
 
         return true;
@@ -149,25 +149,91 @@ bool IDE_CFactorial::esNumero(string valor) {
 
 }
 
- /*
-  * Valida la que la expresión esté correcta con sus
-  * partes
-  */
-bool IDE_CFactorial::validarExpresion(string tipo, string nombre, string valor) {
+/*
+ * Valida la que la expresión esté correcta con sus
+ * partes
+ */
+bool IDE_CFactorial::validarExpresion(Expresion expresion) {
     //Validación básica de la estructura de una variable entera
-    if (tipo == "int") {
-        cout<<"Tipo entero detectado."<<endl;
-        if (nombre == "") {
-            cout<<"El nombre no es válido"<<endl;
+    if (expresion.getTipo() == "int") {
+        cout << "Tipo entero detectado." << endl;
+        if (expresion.getNombre() == "") {
+            cout << "El nombre no es válido" << endl;
             return false;
         } else {
-            cout<<"El nombre es válido."<<endl;
-            if (valor == "") {
-                cout<<"Hace falta el valor"<<endl;
+            cout << "El nombre es válido." << endl;
+            if (expresion.getValor() == "") {
+                cout << "Hace falta el valor" << endl;
                 return false;
             } else {
-                if (esNumero(valor)) {
+                if (esNumero(expresion.getValor())) {
                     //cout<<"Se generará el JSON"<<endl;
+                    generarJson(expresion.getTipo(), expresion.getNombre(), expresion.getValor());
+                    return true;
+                } else {
+                    for (int x = 0; x < contador; x++) {
+                        if (expresion.getValor() == listaExpresiones->Get(x).getNombre() &&
+                            expresion.getTipo() == listaExpresiones->Get(x).getTipo() &&
+                            expresion.getNivel() >= listaExpresiones->Get(x).getNivel()) {
+                            generarJson(expresion.getTipo(), expresion.getNombre(),
+                                        listaExpresiones->Get(x).getValor());
+                            return true;
+                        }
+                    }
+
+
+                    return false;
+                }
+            }
+        }
+    } else if (expresion.getTipo() == "char") {
+        cout << "Tipo char detectado." << endl;
+        if (expresion.getNombre() == "") {
+            cout << "El nombre no es válido" << endl;
+            return false;
+        } else {
+            cout << "El nombre es válido." << endl;
+            if (expresion.getValor() == "") {
+                cout << "Hace falta el valor" << endl;
+                return false;
+            } else {
+                string validacion = "";
+                validacion =
+                        validacion + expresion.getValor()[0] + expresion.getValor()[expresion.getValor().length() - 1];
+                if (validacion == "''" && expresion.getValor().length() == 3) {
+                    generarJson(expresion.getTipo(), expresion.getNombre(), expresion.getValor());
+                    return true;
+                } else {
+                    for (int x = 0; x < contador; x++) {
+                        if (expresion.getValor() == listaExpresiones->Get(x).getNombre() &&
+                            expresion.getTipo() == listaExpresiones->Get(x).getTipo() &&
+                            expresion.getNivel() >= listaExpresiones->Get(x).getNivel()) {
+
+                            generarJson(expresion.getTipo(), expresion.getNombre(),
+                                        listaExpresiones->Get(x).getValor());
+                            return true;
+                        }
+                    }
+                    return false;
+
+
+                }
+            }
+        }
+    } else if (expresion.getTipo() == "double") {
+        cout << "Tipo double detectado." << endl;
+        if (expresion.getNombre() == "") {
+            cout << "El nombre no es válido" << endl;
+            return false;
+        } else {
+            cout << "El nombre es válido." << endl;
+            if (expresion.getValor() == "") {
+                cout << "Hace falta el valor" << endl;
+                return false;
+            } else {
+                if (esNumero(expresion.getValor())) {
+                    //cout<<"Se generará el JSON"<<endl;
+                    generarJson(expresion.getTipo(), expresion.getNombre(), expresion.getValor());
                     return true;
                 } else {
                     cout << "No es numero" << endl;
@@ -175,20 +241,106 @@ bool IDE_CFactorial::validarExpresion(string tipo, string nombre, string valor) 
                 }
             }
         }
-    }else{
+
+    } else if (expresion.getTipo() == "long") {
+        cout << "Tipo long detectado." << endl;
+        if (expresion.getNombre() == "") {
+            cout << "El nombre no es válido" << endl;
+            return false;
+        } else {
+            cout << "El nombre es válido." << endl;
+            if (expresion.getValor() == "") {
+                cout << "Hace falta el valor" << endl;
+                return false;
+            } else {
+                if (esNumero(expresion.getValor())) {
+                    //cout<<"Se generará el JSON"<<endl;
+                    generarJson(expresion.getTipo(), expresion.getNombre(), expresion.getValor());
+                    return true;
+                } else {
+                    for (int x = 0; x < contador; x++) {
+                        if (expresion.getValor() == listaExpresiones->Get(x).getNombre() &&
+                            expresion.getTipo() == listaExpresiones->Get(x).getTipo() &&
+                            expresion.getNivel() >= listaExpresiones->Get(x).getNivel()) {
+                            generarJson(expresion.getTipo(), expresion.getNombre(),
+                                        listaExpresiones->Get(x).getValor());
+                            return true;
+                        }
+                    }
+                    return false;
+                }
+            }
+        }
         return false;
     }
 }
 
+
 //Genera el JSON que se le va a pasar al servidor
-void IDE_CFactorial::generarJson(string tipo, string nombre, string valor, string tamanio) {
+void IDE_CFactorial::generarJson(string tipo, string nombre, string valor) {
     Json::Value event;
     event["tipo"] = tipo;
     event["nombre"] = nombre;
     event["valor"] = valor;
-    event["tamanio"] = tamanio;
 
-    std::cout << event << std::endl;
+    if(tipo == "char"){
+        event["tamanio"] = "1";
+    }else if(tipo == "int"){
+        event["tamanio"] = "4";
+    }else if(tipo == "double" | tipo == "long"){
+        event["tamanio"] = "8";
+    }
+    QString mensaje = QString::fromStdString(event.toStyledString());
+
+    ui->StdOut->append(mensaje);
 
 
+    /*string message = event.toStyledString();
+    Client *nuevo = new Client;
+    nuevo->crear();
+    nuevo->enviar();*/
+
+    string op = event.toStyledString();
+
+    std::cout << op << std::endl;
+
+
+}
+
+void IDE_CFactorial::dividirEnExpresiones(string Texto) {
+    string actual = "";
+    int nivel = 0;
+
+    for(int x = 0; x<Texto.size(); x++){
+        if(Texto[x] == ';') {
+            x++;
+            while(Texto[x]== ' '){
+                x++;
+            }
+            separarExpresion(actual, nivel);
+            actual = "";
+        }else if(Texto[x] == '{'){
+            x++;
+            while(Texto[x]== ' '){
+                x++;
+            }
+            nivel++;
+            actual = "";
+        }else if(Texto[x] == '}'){
+            x++;
+            while(Texto[x]== ' '){
+                x++;
+            }
+            nivel--;
+            actual = "";
+        }else{
+            actual = actual+Texto[x];
+        }
+    }
+
+    cout<<endl;
+    for(int x = 0; x<listaExpresiones->length(); x++){
+        Expresion t = listaExpresiones->Get(x);
+        cout<<"Tipo: "<<t.getTipo()<<" Nombre: "<<t.getNombre()<< " Valor: "<<t.getValor()<<" Nivel: "<<t.getNivel()<<endl;
+    }
 }
